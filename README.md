@@ -8,7 +8,19 @@
 Um simples script que faz a varredura de vulnerabilidades Blind SQL Injection.
 
 **Instalação**
-git clone https://github.com/k45t0/BlindSQLi/
-cd BlindSQLi
-pip3 install -r requirements.txt
-python3 bsqli.py -h
+
+```git clone https://github.com/k45t0/BlindSQLi/```
+```cd BlindSQLi```
+```pip3 install -r requirements.txt```
+
+
+**Uso**
+Para visualizar as opções disponíveis, execute o script com a flag -h:
+
+**Exemplos**
+
+_Varredura de uma única URL:_
+```python3 bsqli.py -u "http://testphp.vulnweb.com/artists.php?artist=2" -s MySQL -L 2```
+
+_Varredura de uma lista de URLs:_
+```python3 bsqli.py -l urls.txt -s Postgresql -L 1```
