@@ -18,7 +18,7 @@ Um simples script que faz a varredura de vulnerabilidades Blind SQL Injection.
 Para visualizar as opções disponíveis, execute o script com a flag -h:
 
 **EXEMPLOS**
-
+<br>
 _Varredura de uma única URL:_<br>
 ```python3 bsqli.py -u "http://testphp.vulnweb.com/artists.php?artist=2" -s MySQL -L 2```
 
