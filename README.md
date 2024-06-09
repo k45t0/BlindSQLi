@@ -14,6 +14,7 @@ Um simples script que faz a varredura de vulnerabilidades Blind SQL Injection.
 
 
 **USO**
+<br>
 Para visualizar as opções disponíveis, execute o script com a flag -h:
 
 **EXEMPLOS**
