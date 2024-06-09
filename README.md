@@ -9,9 +9,9 @@ Um simples script que faz a varredura de vulnerabilidades Blind SQL Injection.
 
 **Instalação**
 
-```git clone https://github.com/k45t0/BlindSQLi/```
-```cd BlindSQLi```
-```pip3 install -r requirements.txt```
+```git clone https://github.com/k45t0/BlindSQLi/\n```
+```cd BlindSQLi\n```
+```pip3 install -r requirements.txt\n```
 
 
 **Uso**
